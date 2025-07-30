@@ -1,0 +1,49 @@
+.project-bg {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(145deg, #0f2027, #203a43, #2c5364);
+  background-size: cover;
+  filter: brightness(1) contrast(1.05);
+  z-index: -1;
+}
+
+/* Card layout */
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.25rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.badge {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.4rem;
+  background: #38bdf8;
+  color: white;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+/* Visit Button Overlay */
+.visit-btn {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background: rgba(255,255,255,0.15);
+  padding: 0.4rem 0.7rem;
+  border-radius: 0.4rem;
+  font-size: 0.75rem;
+  color: white;
+  backdrop-filter: blur(4px);
+  text-decoration: none;
+}
