@@ -28,7 +28,7 @@
 
 
 // src/app/page.tsx
-import Introduction from "./components/Intorduction";
+import Introduction from "./components/introduction";
 import Skills from "./components/Skill";
 import Experience from "./components/Experience";
 import Navbar from "./components/Navbar";
@@ -45,6 +45,3 @@ export default function HomePage() {
     </main>
   );
 }
-
-
-// https://www.pexels.com/search/videos/background/
