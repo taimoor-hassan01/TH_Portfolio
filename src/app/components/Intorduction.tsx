@@ -64,6 +64,7 @@ export default function Introduction() {
             height={300}
           />
         </div>
+        
       </div>
     </section>
   );
