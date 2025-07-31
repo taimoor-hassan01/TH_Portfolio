@@ -28,11 +28,11 @@ export default function About() {
   ];
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setTypeIndex((prev) => (prev + 1) % typingPhrases.length);
-    }, 2000);
-    return () => clearInterval(interval);
-  }, []);
+  const interval = setInterval(() => {
+    setTypeIndex((prev) => (prev + 1) % typingPhrases.length);
+  }, 2000);
+  return () => clearInterval(interval);
+}, [typingPhrases.length]);
 
   const chartData = {
     labels: ["Next.js", "Python", "TypeScript", "React", "CSS", "Git"],
