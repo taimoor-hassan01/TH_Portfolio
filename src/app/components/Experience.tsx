@@ -19,7 +19,7 @@ const experiences = [
       "Built glowing UI projects, explored smart TV visuals, 3D animations, and voice-enabled forms.",
     tech: ["Sanity", "Framer Motion", "UI/UX", "3D Effects"],
     feedback:
-      "Every project from Taimoor feels like an experience—technically sharp and visually alive."
+      " Every project from Taimoor feels like an experience—technically sharp and visually alive."
   }
 ];
 
